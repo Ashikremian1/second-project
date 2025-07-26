@@ -271,6 +271,41 @@
 
 
 
+/* footer-1 */
+
+
+
+.footer-1{
+    margin-top: 150px;
+}
+
+.footer-img{
+    width: 100%;
+
+}
+
+.email-btn{
+    background-color: #E95A08;
+    padding: 26px 80px 26px 80px;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+.input-email{
+    background-color: white;
+    padding: 26px 250px 26px 250px;
+    font-size: large;
+    border: none;
+}
+
+.footer-h1{
+    font-size: 50px;
+    color: white;
+}
+
+
+
 
 
 
