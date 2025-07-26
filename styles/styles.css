@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+
+/* container */
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+/* fonts */
+
+.noto-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* shared-styles */
+
+.display-flex{
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.orange-1{
+    color: #E95A08;
+}
+
+.gray-2{
+   color:rgba(0, 0, 0, 0.5) ; 
+}
+
+.font-22{
+    font-size: 22px;
+}
+
+/* navbar */
+
+.navbar{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart{
+    gap: 5px;
+    align-items: center;
+}
+
+
+.btn-1{
+    text-decoration: none;
+    color: black
+}
+
+.cart-img{
+    width: 24px;
+    height: 24px;
+}
+
+.gray-1{
+    color: #8987A1;
+}
+
+/* banner */
+
+.banner-1{
+    margin: 200px auto;
+}
+.banner-1-text>h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+
+@media (max-width: 768px){
+
+    .container{
+    max-width: 100%
+    margin: auto;
+    }
+
+    .logo{
+        width: 63px;
+        height: 38px;
+    }
+
+    .navbar{
+        margin: 16px 16px;
+    }
+
+    .hide-mobile{
+        display: none;
+    }
+
+    .banner-1{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .banner-1-text>h1{
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .banner-1-text>p{
+        font-size: 14px;
+    }
+
+    .banner-1-img>img{
+        width: 100%;
+
+    }
+
+}
