@@ -187,9 +187,6 @@
     font-size: 50px;
 }
 
-.banner-3-txt>p{
-
-}
 
 .banner-3-images-1{
     display: flex;
@@ -380,25 +377,88 @@
     }
 
     .banner-3-images-1{
-    display: flex;
+
     flex-direction: column;
+    margin-right: 255px;
     align-items: center;
-    }
+    gap: 20px;
+    justify-content: center;
+}
 
     .banner-3-images{
-    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+    justify-content: center;
 
-    }
+}
 
-    .banner-3-images-2{
+.zabo-plant{
     max-width: 100%;
-    margin: auto;
-    }
+}
 
 
 
+.image-box{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.image-box-1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+}
+
+.image-box-2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.image-box-3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.image-box-4{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+    cursor: pointer;
+}
 
 
 
